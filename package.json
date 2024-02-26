@@ -1,0 +1,36 @@
+{
+    "name": "@bewitching-eggs/core",
+    "description": "Utility code",
+    "main": "index.js",
+    "repository": "git@github.com:bewitching-eggs/core.git",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "changes:add": "changeset add",
+        "module:create": "lerna create",
+        "packages:publish": "changeset publish",
+        "packages:version": "changeset version"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@changesets/cli": "^2.27.1",
+        "@changesets/get-github-info": "^0.6.0",
+        "lerna": "8.1.2"
+    },
+    "peerDependencies": {
+        "eslint": "^8.26.0",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.1.2",
+        "prettier": "^2.8.2",
+        "stylelint": "^14.9.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
