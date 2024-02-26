@@ -4,7 +4,7 @@ We use [Changesets](https://github.com/changesets/changesets) tool for packages 
 
 If a PR affects the functionality of one of the packages, it must include a **changeset**.
 
-## changeset files
+## Changeset files
 
 A changeset is an .md file, which is located inside the **.changeset** directory and contains a description of the changes made. For example:
 
