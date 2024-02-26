@@ -4,8 +4,6 @@
     "description": "Common configs",
     "homepage": "https://github.com/bewitching-eggs/core#readme",
     "license": "MIT",
-    "main": "index.js",
-    "scripts": {},
     "repository": {
         "type": "git",
         "url": "https://github.com/bewitching-eggs/core.git",
@@ -14,6 +12,7 @@
     "bugs": {
         "url": "https://github.com/bewitching-eggs/core/issues"
     },
+    "scripts": {},
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^5.57.1",
         "@typescript-eslint/parser": "^5.57.1",
