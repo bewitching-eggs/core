@@ -1,2 +1,3 @@
-# core
-Repository contains utility code
+# Core
+
+Repository contains utility code and common configs.
