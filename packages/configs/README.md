@@ -28,10 +28,14 @@ Add to package.json:
 
 ### Commitlint preset
 
-Add to commitlint.config.js:
+Add to package.json:
 
-```js
-module.exports = require('@bewitching-eggs/configs/commitlint');
+```json
+{
+  "commitlint": {
+    "extends": "@bewitching-eggs/configs/commitlint"
+  }
+}
 ```
 
 ### Husky preset
@@ -46,7 +50,8 @@ Add to package.json:
 
 ### Lint-staged preset
 
-Add to lint-staged.config.js:
+Firstly, create lint-staged.config.js file.
+Then, add config:
 
 ```js
 module.exports = require('@bewitching-eggs/configs/lint-staged');
@@ -54,12 +59,12 @@ module.exports = require('@bewitching-eggs/configs/lint-staged');
 
 ### Tsconfig preset
 
-Add to tsconfig.json:
+Firstly, create tsconfig.json file.
+Then, add config:
 
 ```json
 {
   "extends": "@bewitching-eggs/configs/tsconfig/<browser | server>/tsconfig.json",
-  // add other rules that use paths:
   "compilerOptions": {
     "typeRoots": ["./src/typings", "./node_modules/@types"]
   },
@@ -68,12 +73,12 @@ Add to tsconfig.json:
 }
 ```
 
-Add to tsconfig.node.json:
+Firstly, create tsconfig.vite.json file.
+Then, add config:
 
 ```json
 {
-  "extends": "@bewitching-eggs/configs/tsconfig/browser/tsconfig.node.json",
-  // add other rules that use paths:
+  "extends": "@bewitching-eggs/configs/tsconfig/browser/tsconfig.vite.json",
   "include": ["vite.config.ts", "pwa.config.ts"]
 }
 ```

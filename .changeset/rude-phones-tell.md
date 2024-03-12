@@ -2,4 +2,8 @@
 '@bewitching-eggs/configs': minor
 ---
 
-add configuration files typescript, commitlint, husky and lint-staged
+Add configuration files for:  
+ - typescript,  
+ - commitlint,  
+ - lint-staged,  
+ - husky
