@@ -40,13 +40,9 @@ Add to package.json:
 
 ### Husky preset
 
-Add to package.json:
-
-```json
-  "husky": {
-    "hooks": "@bewitching-eggs/configs/husky"
-  }
-```
+Run the prepare command.
+Then copy files from directory: packages/configs/husky/hooks
+to husky directory in your project: .husky/
 
 ### Lint-staged preset
 
