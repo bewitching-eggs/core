@@ -1,5 +1,11 @@
 # @bewitching-eggs/configs
 
+## 1.1.1
+
+### Patch Changes
+
+- 9ac5b41: fix configurations husky and lint-staged
+
 ## 1.1.0
 
 ### Minor Changes
