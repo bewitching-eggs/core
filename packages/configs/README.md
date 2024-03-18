@@ -40,9 +40,9 @@ Add to package.json:
 
 ### Husky preset
 
-Run the prepare command.
-Then copy files from directory: packages/configs/husky/hooks
-to husky directory in your project: .husky/
+Run the command: `npx husky init`
+Then copy files from directory: `packages/configs/husky/hooks`
+to husky directory in your project: `.husky/`
 
 ### Lint-staged preset
 
