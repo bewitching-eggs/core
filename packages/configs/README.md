@@ -69,7 +69,7 @@ Then, add config:
 }
 ```
 
-If you using the server config do not forget to specify outDir setting.
+If you using the server config do not forget to specify `outDir` setting.
 
 ```json
 {
