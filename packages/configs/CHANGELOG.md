@@ -1,5 +1,11 @@
 # @bewitching-eggs/configs
 
+## 1.1.2
+
+### Patch Changes
+
+- b6863d2: remove outDir parameter from tsconfig
+
 ## 1.1.1
 
 ### Patch Changes
