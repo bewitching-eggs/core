@@ -69,6 +69,16 @@ Then, add config:
 }
 ```
 
+If you using the server config do not forget to specify outDir setting.
+
+```json
+{
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}
+```
+
 Firstly, create tsconfig.vite.json file.
 Then, add config:
 
