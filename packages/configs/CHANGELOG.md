@@ -1,5 +1,12 @@
 # @bewitching-eggs/configs
 
+## 1.1.3
+
+### Patch Changes
+
+- 92caef2: eslint-plugin-prettier version update
+  remove eslint no-confusing-arrow rule
+
 ## 1.1.2
 
 ### Patch Changes
