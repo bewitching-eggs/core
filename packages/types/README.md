@@ -1,0 +1,3 @@
+# Types
+
+Common reusable types.
