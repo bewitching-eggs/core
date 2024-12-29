@@ -1,5 +1,13 @@
 # @bewitching-eggs/configs
 
+## 1.1.4
+
+### Patch Changes
+
+- 6087719: ## Fixes
+
+  - Add "-" symbol as valid symbol in commitlint
+
 ## 1.1.3
 
 ### Patch Changes
