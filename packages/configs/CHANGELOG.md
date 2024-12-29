@@ -1,5 +1,11 @@
 # @bewitching-eggs/configs
 
+## 1.1.5
+
+### Patch Changes
+
+- 712e4eb: Update dependencies
+
 ## 1.1.4
 
 ### Patch Changes
