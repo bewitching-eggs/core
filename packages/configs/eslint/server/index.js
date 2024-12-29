@@ -10,13 +10,13 @@ module.exports = {
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:import/recommended",
-        "prettier",
+        "plugin:prettier/recommended",
     ],
     parserOptions: {
         ecmaVersion: 13,
         sourceType: "module",
     },
-    plugins: ["@typescript-eslint", "jest", "prettier"],
+    plugins: ["@typescript-eslint", "jest"],
     globals: {
         BigInt: true,
     },
